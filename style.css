@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+    background:  linear-gradient(to left bottom,lightblue,lightpink,lightblue);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+
+}
+.container{
+    background-color: rgba(255, 255, 255,.3);
+    padding: 20px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0,.3);
+    border-radius: 20px;
+    width: 80%;
+    text-align: center;
+    color: darkgreen;
+    /* height: 400px; */
+}
+.head{
+    font-size: 35px;
+    font-weight: 200;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0,.3);
+    letter-spacing: 2px;
+}
+.joke{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 50px;
+}
+.nasim{
+    font-family:  'Poppins', sans-serif;
+    font-size: 16px;
+    color: black;
+    margin: 15px;
+}
+span{
+    color: rgb(231, 108, 59);
+  }
+  
+.btn{
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgba(255, 255, 255,.3);
+    border-color: rgba(255, 255, 255,.6);
+    text-transform: uppercase;
+    width: 200px;
+    color: darkgreen;
+    margin: 20px;
+}
+.btn:hover{
+    background-color: rgba(255, 255, 255,.5);
+    box-shadow: 0 4px 4px rgba(0, 0, 0,.3);
+    transition: all 300ms ease;
+
+}
